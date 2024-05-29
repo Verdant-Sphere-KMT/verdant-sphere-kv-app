@@ -40,3 +40,7 @@ jobs:
       - name: Build the application
         run: |
           php artisan key:generate
+
+      - name: Run Unit Test
+        run: |
+          php artisan test
